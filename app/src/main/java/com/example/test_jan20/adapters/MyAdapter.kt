@@ -11,46 +11,10 @@ import com.example.test_jan20.viewholders.MyViewHolder1
 
 class MyAdapter(recyclerFragment: FragmentRecyclerView) : RecyclerView.Adapter<MyViewHolder1>() {
 
-    private var mutableList = mutableListOf(
-        "Mercury",
-        "Venus",
-        "Earth",
-        "Mars",
-        "Mercury",
-        "Venus",
-        "Earth",
-        "Mars",
-        "Mercury",
-        "Venus",
-        "Earth",
-        "Mars",
-        "Mercury",
-        "Venus",
-        "Earth",
-        "Mars",
-        "Mercury",
-        "Venus",
-        "Earth",
-        "Mars",
-        "Mercury",
-        "Venus",
-        "Earth",
-        "Mars",
-        "Mercury",
-        "Venus",
-        "Earth",
-        "Mars",
-        "Mercury",
-        "Venus",
-        "Earth",
-        "Mars",
-        "Mercury",
-        "Venus",
-        "Earth",
-        "Mars",
-        "Mercury",
-        "Venus",
-        "Earth",
+    private var mutableList: MutableList<String> = mutableListOf(
+        "Alpha", "Beta", "Gamma", "Delta", "Epsilon", "Zeta", "Eta", "Theta",
+        "Iota", "Kappa", "Lambda", "Mu", "Nu", "Xi", "Omicron", "Pi", "Rho",
+        "Sigma", "Tau", "Upsilon", "Phi", "Chi", "Psi", "Omega"
     )
 
     private var mClickListener: ItemClickListener = recyclerFragment
