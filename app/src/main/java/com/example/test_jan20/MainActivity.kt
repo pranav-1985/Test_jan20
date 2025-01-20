@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         val bottomNavigationView=findViewById<BottomNavigationView>(R.id.bottomNavigation)
 
-        bottomNavigationView.selectedItemId=R.id.nav_RecyclerView
+        bottomNavigationView.selectedItemId=R.id.nav_RecyclerView // initially selected fragment
 
         bottomNavigationView.setOnItemSelectedListener { item ->
             when (item.itemId) {

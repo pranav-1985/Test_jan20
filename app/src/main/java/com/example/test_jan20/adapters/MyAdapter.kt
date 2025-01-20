@@ -36,8 +36,8 @@ class MyAdapter(recyclerFragment: FragmentRecyclerView) : RecyclerView.Adapter<M
     override fun onBindViewHolder(holder: MyViewHolder1, position: Int) {
         Log.e("Adapter position", position.toString())
 
-        val planet = mutableList[position]
-        holder.myTextView.text = planet
+        val strings = mutableList[position]
+        holder.myTextView.text = strings
     }
 
     override fun getItemCount(): Int {
