@@ -31,8 +31,8 @@ class FragmentTabLayout : Fragment(){
         val tab2Fragment = TabFragment2()
 
         val adapter = ViewPagerAdapter(this)
-        adapter.addFragment(tab1Fragment,"Tab 1")
-        adapter.addFragment(tab2Fragment,"Tab 2")
+        adapter.addFragment(tab1Fragment,"Tab-1")
+        adapter.addFragment(tab2Fragment,"Tab-2")
 
         viewPager.adapter=adapter
         viewPager.currentItem = 0
