@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test_jan20</string>
+    <string name="tablayout">TabLayout</string>
+    <string name="recyclerview">RecyclerView</string>
+</resources>
